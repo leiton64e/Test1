@@ -1,18 +1,4 @@
-# Suite Completa de Gakuran (HUD Arrastrable, Auto Parry, Bloqueo al Lord, ESP y Cargadores)
 
-Este documento reúne en un solo lugar el script unificado listo para ejecutar (compatible con PC, pantalla táctil, Delta y Haci) junto con sus cargadores rápidos.
-
----
-
-## 1. Script Principal Unificado (Todo en Uno)
-
-Incluye:
-- **HUD arrastrable** en PC y táctil (`LORD GUARD`, contador de parries/bloqueos, barra de recarga y estado en vivo).
-- **Botones rápidos arrastrables** (`PARRY: ON/OFF`, `ESP: ON/OFF` y `FILTRO: ALL / PLR / NPC`) + atajos de teclado (`F`, `G`, `H`).
-- **Auto Parry + Bloqueo Automático al Lord** ante amenazas cercanas y recepción de daño.
-- **ESP en tiempo real** con barra de vida (`HP / MaxHP`, porcentaje, color dinámico y distancia) para todos los NPCs y jugadores en `workspace`.
-
-```lua
 -- Suite Gakuran Unificada: Auto Parry de Alta Respuesta + Bloqueo al Lord + ESP con HP + HUD Arrastrable
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
