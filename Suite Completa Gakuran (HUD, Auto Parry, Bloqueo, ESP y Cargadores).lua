@@ -1,5 +1,3 @@
-
--- Suite Gakuran Unificada: Auto Parry de Alta Respuesta + Bloqueo al Lord + ESP con HP + HUD Arrastrable
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
